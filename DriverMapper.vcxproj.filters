@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="minirtl\_strcat.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcmpi.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcpy.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strend.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strlen.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strncmpi.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\cmdline.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\ultostr.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\ultohex.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\u64tostr.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\u64tohex.c">
+      <Filter>minrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="cui.c">
+      <Filter>requires</Filter>
+    </ClCompile>
+    <ClCompile Include="sup.c">
+      <Filter>requires</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="minirtl\cmdline.h">
+      <Filter>minrtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\minirtl.h">
+      <Filter>minrtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\rtltypes.h">
+      <Filter>minrtl</Filter>
+    </ClInclude>
+    <ClInclude Include="cui.h">
+      <Filter>requires</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>requires</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos.h">
+      <Filter>requires</Filter>
+    </ClInclude>
+    <ClInclude Include="shellcode.h">
+      <Filter>requires</Filter>
+    </ClInclude>
+    <ClInclude Include="sup.h">
+      <Filter>requires</Filter>
+    </ClInclude>
+    <ClInclude Include="vbox.h">
+      <Filter>requires</Filter>
+    </ClInclude>
+    <ClInclude Include="MapperLib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="minrtl">
+      <UniqueIdentifier>{ab717a45-5786-419a-b10f-1b9061b4a7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="requires">
+      <UniqueIdentifier>{b6e8e058-a38c-4988-9d85-2facd8b84c03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

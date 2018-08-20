@@ -1,0 +1,1 @@
+https://github.com/hfiref0x/TDL modified for use as a static library
